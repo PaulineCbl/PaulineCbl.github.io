@@ -4,9 +4,7 @@ nineteenth_count = 0
 twentieth_count = 0
 
 for person, if date in birth_dates.items():
-    if date <1900:
+    if date < 1900:
         nineteenth_count += 1
     else:
         twentieth_count += 1
-
-            
