@@ -8,6 +8,5 @@ for person, date in birth_dates.items():
         nineteenth_count += 1
     else:
         twentieth_count += 1
-        print("There are" + str(nineteenth_count) + "19th-c births" + " and " + str(twentieth_count) + "20th-c. births in my collection.")
 
-        
+print("There are " + str(nineteenth_count) + " 19th-c births " + " and " + str(twentieth_count) + " 20th-c. births in my collection.")
